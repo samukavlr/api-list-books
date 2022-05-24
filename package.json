@@ -1,13 +1,15 @@
 {
-  "name": "api-fake",
+  "name": "json-server-deploy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json --port 5001"
+    "start": "node server.js"
   },
-  "author": "",
+  "keywords": [
+    "json-server,azure, node, REST API"
+  ],
+  "author": "Samuel",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
